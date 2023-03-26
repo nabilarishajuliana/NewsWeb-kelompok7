@@ -18,7 +18,7 @@ function News() {
 				</div> */}
 			</div>
 			<h2 className="z-10 p-5">
-				<a rel="noopener noreferrer"  className="font-medium text-md hover:underline dark:text-gray-100">Inventore reiciendis aliquam excepturi</a>
+				{/* <a rel="noopener noreferrer"  className="font-medium text-md hover:underline dark:text-gray-100">Inventore reiciendis aliquam excepturi</a> */}
 			</h2>
 		</div>
 		<div className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96 dark:bg-gray-500" style={{backgroundImage: "url(../Asset/foto4.jpg);"}}>
@@ -31,7 +31,7 @@ function News() {
 				</div> */}
 			</div>
 			<h2 className="z-10 p-5">
-				<a rel="noopener noreferrer"  className="font-medium text-md hover:underline dark:text-gray-100">Inventore reiciendis aliquam excepturi</a>
+				{/* <a rel="noopener noreferrer"  className="font-medium text-md hover:underline dark:text-gray-100">Inventore reiciendis aliquam excepturi</a> */}
 			</h2>
 		</div>
 		<div className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96 dark:bg-gray-500" style={{backgroundImage: "url(../Asset/foto2.jpg);"}}>
@@ -44,7 +44,7 @@ function News() {
 				</div> */}
 			</div>
 			<h2 className="z-10 p-5">
-				<a rel="noopener noreferrer"  className="font-medium text-md hover:underline dark:text-gray-100">Officiis mollitia dignissimos commodi optio vero animi</a>
+				{/* <a rel="noopener noreferrer"  className="font-medium text-md hover:underline dark:text-gray-100">Officiis mollitia dignissimos commodi optio vero animi</a> */}
 			</h2>
 		</div>
 		<div className="relative flex items-end justify-start w-full text-left bg-center bg-cover h-96 dark:bg-gray-500" style={{backgroundImage: "url(../Asset/foto3.jpg);"}}>
@@ -57,7 +57,7 @@ function News() {
 				</div> */}
 			</div>
 			<h2 className="z-10 p-5">
-				<a rel="noopener noreferrer"  className="font-medium text-md hover:underline dark:text-gray-100">Doloribus sit illo necessitatibus architecto exercitationem enim</a>
+				{/* <a rel="noopener noreferrer"  className="font-medium text-md hover:underline dark:text-gray-100">Doloribus sit illo necessitatibus architecto exercitationem enim</a> */}
 			</h2>
 		</div>
 	</div>

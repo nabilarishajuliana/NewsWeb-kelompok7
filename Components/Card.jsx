@@ -5,6 +5,7 @@ import data from "../Data.json"
 import { Navbar, Dropdown } from "flowbite-react";
 import News from './News';
 import Carousel from './Adds';
+import Footer from './Footer';
 
 
 
@@ -95,7 +96,7 @@ function Card() {
                     </a>
                     <Navbar.Link
                     
-                    href="/Home"
+                    href="#contact"
                     ><p
                         className='text-black pt-2 hover:text-blue-600 text-base pr-5'
                     >
@@ -168,6 +169,10 @@ function Card() {
                 </section>
 
             </div>
+            <section id='contact'>
+                <Footer/>
+            </section>
+            
         </>
     )
 }
