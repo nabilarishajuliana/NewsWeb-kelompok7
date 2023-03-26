@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import data from "../Data.json"
 import { Navbar, Dropdown } from "flowbite-react";
 import News from './News';
+import Carousel from './Adds';
 
 
 
@@ -56,11 +57,12 @@ function Card() {
 
             <Navbar
                 fluid={true}
-                rounded={true}
+                rounded={true} 
+                
             >
                 <Navbar.Brand href="https://flowbite.com/"
                     style={{ color: "black" }}>
-                    <h1 className=' text-xl'><b>INI BERITA</b><b style={{ color: "red" }}>KU</b></h1>
+                    <h1 className=' text-xl'><b>INI BERITA</b><b style={{ color: "blue" }}>KU</b></h1>
 
                 </Navbar.Brand>
                 <div className="flex md:order-2">
@@ -68,34 +70,41 @@ function Card() {
                 </div>
                 <Navbar.Collapse className="ml-auto ">
                     <Navbar.Link
-                        href="/Home"
-                        style={{ color: "black", paddingTop: "10px" }}
+                    
+                    href="/Home"
+                    ><p
+                        className='text-black pt-2 hover:text-blue-600 text-base'
                     >
                         Home
-                    </Navbar.Link>
-                    <Navbar.Link>
+                    </p></Navbar.Link>
+                    <a>
                         <form onChange={handlefilter}>
                             <select
-                                className="filter border-none hover:border-none "
+                                className="filter border-none hover:border-none text-black  hover:text-blue-600 "
                                 name="isAvailable"
                                 value={keyword}
                                 onChange={(e) => setKeyword(e.target.value)}
                             >
                                 <option value="">Category</option>
                                 <option value="Politics">Politics</option>
-                                <option value="Sold Out">Sold Out</option>
-                                <option value="Pre-Order">Pre-Order</option>
+                                <option value="Health">Health</option>
+                                <option value="Entertaiment">Entertaiment</option>
+                                <option value="Sports">Sports</option>
                             </select>
                         </form>
-                    </Navbar.Link>
-                    <Navbar.Link href="/navbars"
-                        style={{ color: "black", paddingTop: "10px" }}
+                    </a>
+                    <Navbar.Link
+                    
+                    href="/Home"
+                    ><p
+                        className='text-black pt-2 hover:text-blue-600 text-base pr-5'
                     >
                         Contact
-                    </Navbar.Link>
+                    </p></Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
 
+            <Carousel/>
             <News />
 
             <div className="p-5 text-black z-[2] mt-10">
